@@ -1,8 +1,31 @@
-h1{
+/* font-family */
+/* h1{
     color: red;
     font-family: cursive;
 }
 .p1{
     color: blueviolet;
     font-family: monospace;
+} */
+
+/* font-size */
+
+/* pexels form */
+/* h1{
+    font-size: 32px;
+} */
+
+/* percentage form */
+/* h1{
+    font-size: 300%;
+} */
+
+/* default values */
+/* h1{
+    font-size: xx-large;
+} */
+
+/* IN EMS */
+h1{
+    font-size: 3em;
 }
