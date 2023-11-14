@@ -1,4 +1,4 @@
-/* font-family */
+/* FONT-FAMILY */
 /* h1{
     color: red;
     font-family: cursive;
@@ -8,24 +8,38 @@
     font-family: monospace;
 } */
 
-/* font-size */
+/* FONT-SIZE */
 
-/* pexels form */
+/* PEXELS FORM */
 /* h1{
     font-size: 32px;
 } */
 
-/* percentage form */
+/* PERCENTAGE FORM */
 /* h1{
     font-size: 300%;
 } */
 
-/* default values */
+/* DEFAULT VALUES */
 /* h1{
     font-size: xx-large;
 } */
 
 /* IN EMS */
-h1{
+/* h1{
     font-size: 3em;
+} */
+
+/* FONT-FACE*/
+ @font-face {
+        font-family: test;
+        src: url('./assets/fonts/KdamThmorPro-Regular.ttf');
+        font-family: test1;
+        src: url('./assets/fonts/Agbalumo-Regular.ttf');
+    }
+h1{
+        font-family: test;
+    }
+p{
+    font-family: test1;
 }
