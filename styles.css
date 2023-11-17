@@ -31,7 +31,7 @@
 } */
 
 /* FONT-FACE*/
- @font-face {
+ /* @font-face {
         font-family: test;
         src: url('./assets/fonts/KdamThmorPro-Regular.ttf');
         font-family: test1;
@@ -42,4 +42,126 @@ h1{
     }
 p{
     font-family: test1;
+} */
+/* FONT-WEIGHT */
+
+/* p{
+    font-weight: bolder;
+} */
+
+/* FONT-STYLE */
+/* #normal{
+    font-style: normal;
 }
+#oblique{
+    font-style: oblique;
+}
+#italic{
+    font-style: italic;
+} */
+
+/* TEXT-TRANSFORMATION */
+/* #capitilize{
+   text-transform: capitalize;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#uppercase{
+    text-transform: uppercase;
+} */
+
+/* TEXT-DECORATION */
+/* #underline{
+    text-decoration: underline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#overline{
+    text-decoration: overline;
+} */
+
+/* LINE HEIGHT/LEADING */
+/* p{
+ line-height: 50px;
+} */
+
+/* LETTER AND WORD SPACING */
+/* h1{
+ letter-spacing: 10px;
+}
+p{
+    word-spacing: 20px;
+} */
+
+/* TEXT-ALIGNMENT */
+/* h1{
+ text-align: center;
+}
+p{
+    text-align: justify;
+} */
+
+/* VERTICAL ALIGNMENT */
+/* img{
+    vertical-align: text-bottom;
+} */
+
+/* TEXT INDENT */
+/* p{
+    text-indent: 100px;
+} */
+
+/* TEXT SHADOW */
+/* p{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+} */
+
+/* PSEUDO CODES */
+/* p::first-letter{
+    color: aqua;
+}
+p::first-line{
+    color: red;
+} */
+
+/* STYLING LINKS */
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+} */
+
+/* RESPONDING TO USER */
+/* hover */
+/* input.btn:hover{
+    color: red;
+    background-color: aqua;
+    cursor: pointer;
+}
+/* active */
+/* input.btn:active{
+    background-color: blueviolet;
+    color: brown;
+} */ 
+
+/* focus */
+/* input.btn:focus{
+    background-color: blue;
+} */
+
+/* ATTRIBUTE SELECTORS */
+/* EXISTENCE */
+/* h1[name]{
+    color: red;
+} */
+
+/* equality */
+h1[test="hi"]{
+    color: red;
+}
+
